@@ -9,7 +9,7 @@ body {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     transition: scroll-behavior .4s ease-in-out;
-    background-color: 000000;
+    background-color: #000000;
 }
 
 a {
@@ -20,6 +20,7 @@ a {
 a:hover{
   color: #FFDA5D!Important;
 }
+
 
 
 
@@ -135,13 +136,28 @@ a:hover{
       width: 274px;
     }
     .one {
-      background-image: url(/images/Frame\ 1.svg);
+      background-image: url(/images/Lottie.gif);
       background-size: cover;
       background-repeat: no-repeat;
       height: 650px;
   }
   .hold {
     color: #C9A732; font-size: 24px; font-weight: bolder; line-height: 40px;
+  }
+
+  .right {
+    position: relative;
+    left: -67px;
+  }
+
+  .menu h2 {
+    font-size: 20px;
+    padding: 0px 15px 0px;
+    margin-top: 25px;
+  }
+
+  .bytee-img {
+    width: 400px;
   }
 
   .roadmap {
@@ -168,11 +184,13 @@ a:hover{
       width: 474px;
     }
     .one {
-      background-image: url(/images/Frame\ 1.svg);
+      background-image: url(/images/Lottie.gif);
       background-size: cover;
       background-repeat: no-repeat;
       height: 1050px;
+    
   }
+
   .hold {
     color: #C9A732;
      font-size: 40px;
