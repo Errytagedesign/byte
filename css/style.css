@@ -136,7 +136,7 @@ a:hover{
       width: 274px;
     }
     .one {
-      background-image: url(/images/Lottie.gif);
+      background-image: url(/images/Figma.gif);
       background-size: cover;
       background-repeat: no-repeat;
       height: 650px;
@@ -184,11 +184,11 @@ a:hover{
       width: 474px;
     }
     .one {
-      background-image: url(/images/Lottie.gif);
+      background-image: url(/images/Figma.gif);
       background-size: cover;
       background-repeat: no-repeat;
       height: 1050px;
-      opacity: 0.75;
+      
     
   }
 
