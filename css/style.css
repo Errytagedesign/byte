@@ -1,0 +1,131 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden!important;
+    scroll-behavior: smooth;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    transition: scroll-behavior .4s ease-in-out;
+    background-color: 000000;
+}
+
+a {
+  text-decoration: none!important;
+  color: white;
+}
+
+a:hover{
+  color: #FFDA5D!Important;
+}
+
+.one {
+    background-image: url(/images/Frame\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1050px;
+}
+
+
+@font-face {
+    font-family: "paladins";
+    src: url("../fonts/Paladins-Semi-Italic/paladinsleft.ttf") format("ttf");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Iceland", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: "Iceland", sans-serif;
+
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+  }
+
+  .text {
+    text-align: justify;
+  }
+
+  .box-img {
+    background-image: url(/images/box.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 290px;
+  }
+
+  .big {
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  .big-sub {
+    font-size: 38px;
+    line-height: 40px;
+    font-family: "Iceland", sans-serif;
+  }
+
+  
+
+  .button {
+    background-color: #CA2023;
+    border-radius: 10px;
+    width: 336px;
+    height: 66px;
+    border: none;
+    font-family: "Iceland", sans-serif;
+    font-size: 38px;
+  }
+
+  .image {
+    width: 474px;
+  }
+
+  .element {
+    
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    
+    animation: roll 3s;
+    transform: rotate(0deg);
+  
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: rotate(0);
+      width: 20px;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @media screen and (max-width: 850px) {
+    .top{
+      margin-top: 40px;
+    }
+    .img-small {
+      width: 360px;
+    }
+    .byte {
+      width: 400px;
+      margin-top: 20px;
+      margin-bottom: 20px;  
+    }
+  }
+
+  @media screen and (min-width: 860px) {
+    .eth {
+      position: relative;
+      right: 80px;
+    }
+  }
