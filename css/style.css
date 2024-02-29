@@ -21,12 +21,7 @@ a:hover{
   color: #FFDA5D!Important;
 }
 
-.one {
-    background-image: url(/images/Frame\ 1.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 1050px;
-}
+
 
 
 @font-face {
@@ -34,8 +29,17 @@ a:hover{
     src: url("../fonts/Paladins-Semi-Italic/paladinsleft.ttf") format("ttf");
   }
 
+  @font-face {
+    font-family:"Paladins Condensed";
+    src:url("/fonts/Paladins_Condensed/paladinscond.woff") format("woff");
+    font-weight: bold;
+    font-style:normal;
+  }
+
+
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Iceland", sans-serif;
+    font-family: "Paladins Condensed";
+    /* font-family: "Iceland", sans-serif; */
     font-style: italic;
     text-transform: uppercase;
   }
@@ -61,7 +65,7 @@ a:hover{
   }
 
   .big {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: bolder;
   }
 
@@ -83,9 +87,7 @@ a:hover{
     font-size: 38px;
   }
 
-  .image {
-    width: 474px;
-  }
+
 
   .element {
     
@@ -109,6 +111,14 @@ a:hover{
   }
 
 
+  .roadmap {
+    background-image: url(/images/roadmap-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px!important;
+  }
+
+
   @media screen and (max-width: 850px) {
     .top{
       margin-top: 40px;
@@ -121,6 +131,32 @@ a:hover{
       margin-top: 20px;
       margin-bottom: 20px;  
     }
+    .image {
+      width: 274px;
+    }
+    .one {
+      background-image: url(/images/Frame\ 1.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 650px;
+  }
+  .hold {
+    color: #C9A732; font-size: 24px; font-weight: bolder; line-height: 40px;
+  }
+
+  .roadmap {
+    background-image: url(/images/roadmap-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px!important;
+    height: 380px;
+    width: 360px;
+  }
+
+  .left {
+    position: relative;
+    left: 20px;;
+  }
   }
 
   @media screen and (min-width: 860px) {
@@ -128,4 +164,28 @@ a:hover{
       position: relative;
       right: 80px;
     }
+    .image {
+      width: 474px;
+    }
+    .one {
+      background-image: url(/images/Frame\ 1.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1050px;
+  }
+  .hold {
+    color: #C9A732;
+     font-size: 40px;
+      font-weight: bolder; 
+      line-height: 50px;
+  }
+
+  .roadmap {
+    background-image: url(/images/roadmap-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px!important;
+    height: 420px;
+    width: 400px;
+  }
   }
