@@ -85,7 +85,6 @@ a:hover{
     height: 66px;
     border: none;
     font-family: "Iceland", sans-serif;
-    font-size: 38px;
   }
 
 
@@ -144,6 +143,9 @@ a:hover{
   .hold {
     color: #C9A732; font-size: 24px; font-weight: bolder; line-height: 40px;
   }
+  .button {
+    font-size: 25px;
+  }
 
   .right {
     position: relative;
@@ -165,7 +167,7 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px!important;
-    height: 380px;
+    height: 410px;
     width: 360px;
   }
 
@@ -184,7 +186,7 @@ a:hover{
       width: 474px;
     }
     .one {
-      background-image: url(/images/Figma.gif);
+      background-image: url(/images/Frame\ 1.svg);
       background-size: cover;
       background-repeat: no-repeat;
       height: 1050px;
@@ -206,5 +208,10 @@ a:hover{
     border-radius: 10px!important;
     height: 420px;
     width: 400px;
+  }
+
+  .button {
+   
+    font-size: 38px;
   }
   }
