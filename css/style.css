@@ -9,7 +9,7 @@ body {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
     transition: scroll-behavior .4s ease-in-out;
-    background-color: #000000;
+    background-color: #141414;
 }
 
 a {
@@ -135,7 +135,7 @@ a:hover{
       width: 274px;
     }
     .one {
-      background-image: url(/images/Figma.gif);
+      background-image: url(/images/HeroText.png);
       background-size: cover;
       background-repeat: no-repeat;
       height: 650px;
@@ -186,7 +186,7 @@ a:hover{
       width: 474px;
     }
     .one {
-      background-image: url(/images/Frame\ 1.svg);
+      background-image: url(/images/HeroText.png);
       background-size: cover;
       background-repeat: no-repeat;
       height: 1050px;
