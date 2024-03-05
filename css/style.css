@@ -53,6 +53,10 @@ a:hover{
     font-size: 20px;
   }
 
+  .texttt {
+    font-family: "Iceland", sans-serif;
+  }
+
   .text {
     text-align: justify;
   }
