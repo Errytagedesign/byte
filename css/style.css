@@ -65,6 +65,13 @@ a:hover{
     top: 8px;
   
   }
+  .dash {
+    position: relative;
+    right: 9px!important;
+    font-size: 17px;
+    width: 100px!important;
+  }
+
   
 }
 
@@ -173,20 +180,15 @@ a:hover{
   .dashboard-button {
     background-color: #CA2023;
     border-radius: 10px;
-    width: 160px;
-    
+    width: 130px;
+    font-size: 25px;
     height: 56px;
     border: none;
     
     font-family: "Iceland", sans-serif;
   }
 
-  .dash {
-    position: relative;
-    right: 14px!important;
-    font-size: 17px;
-  }
-
+ 
 
   .buy-button {
     background-color: #C9A732;
