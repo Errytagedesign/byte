@@ -30,11 +30,17 @@ a:hover{
      border-radius: 50px;
     height: 80px;
   }
+  .small-screen {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 850px) {
   .move-left {
     margin-left: 20px;
+  }
+  .big-screen {
+    display: none;
   }
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
@@ -167,8 +173,8 @@ a:hover{
   .dashboard-button {
     background-color: #CA2023;
     border-radius: 10px;
-    width: 200px;
-    font-size: 35px;
+    width: 160px;
+    font-size: 30px;
     height: 56px;
     border: none;
     font-family: "Iceland", sans-serif;
@@ -285,7 +291,8 @@ a:hover{
   }
 
    .white-bg {
-    background-color: #fff;
+    background-color: #000000;
+    color: #FFC500;
     height: 200px;
   }
   }
