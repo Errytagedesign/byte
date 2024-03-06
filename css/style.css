@@ -174,9 +174,11 @@ a:hover{
     background-color: #CA2023;
     border-radius: 10px;
     width: 160px;
-    font-size: 30px;
+    font-size: 26px;
     height: 56px;
     border: none;
+    position: relative;
+    left: -6px;
     font-family: "Iceland", sans-serif;
   }
 
