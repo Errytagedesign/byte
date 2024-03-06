@@ -178,7 +178,7 @@ a:hover{
     height: 56px;
     border: none;
     position: relative;
-    left: -6px;
+    left: -9px;
     font-family: "Iceland", sans-serif;
   }
 
@@ -192,6 +192,7 @@ a:hover{
     border: none;
     font-family: "Iceland", sans-serif;
     position: absolute;
+    color: #000000!important;
     bottom: 295px;
   }
 
