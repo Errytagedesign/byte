@@ -91,6 +91,15 @@ a:hover{
     font-family: "Iceland", sans-serif;
   }
 
+  .dashboard-button {
+    background-color: #CA2023;
+    border-radius: 10px;
+    width: 160px;
+    font-size: 35px;
+    height: 56px;
+    border: none;
+    font-family: "Iceland", sans-serif;
+  }
 
 
   .element {
