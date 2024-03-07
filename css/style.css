@@ -90,6 +90,7 @@ a:hover{
     font-style:normal;
   }
 
+  
 
   h1, h2, h3, h4, h5, h6 {
     font-family: "Paladins Condensed";
@@ -102,7 +103,7 @@ a:hover{
     font-family: "Paladins Condensed";
   }
 
-  p {
+  p{
     font-family: "Iceland", sans-serif;
 
     font-style: normal;
@@ -110,6 +111,7 @@ a:hover{
     font-size: 20px;
   }
 
+ 
   .texttt {
     font-family: "Iceland", sans-serif;
   }

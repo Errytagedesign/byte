@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Portal - Bootstrap 5 Admin Dashboard Template For Developers</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Portal - Bootstrap 5 Admin Dashboard Template For Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+    
+    <!-- App CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/portal.css">
+	<link id="theme-style" rel="stylesheet" href="assets/css/dashboard.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+
+</head> 
+
+<body class="app" style="background-color: black;">   	
+    <header class="app-header fixed-top p-3 p-lg-5">	 
+		  	            
+        	  	            
+        <div class="app-header-inner ">  
+	        <div class="container-xl py-2">
+		        <div class="app-header-content px-4"> 
+		            <div class="row justify-content-between align-items-center" style="cursor: pointer;">
+			        
+				    <div class="col-auto">
+					    <a id="sidepanel-toggler" class="sidepanel-toggler d-inline-block d-xl-none pt-3" href="#">
+						    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg>
+					    </a>
+				    </div>
+		           
+					<div class="row pt-3">
+						<div class="">
+							<img src="/images/byte-logodashboard.svg" alt="">
+						</div>
+
+						<div class="d-flex justify-content-end " style="position: relative; bottom: 25px;">
+							<div class="mx-4">
+								<img src="/images/dev-connect.svg" alt="">
+							</div>
+							<div class="mx-2" style="position: relative; bottom: 4px;">
+								<img src="/images/connect-dashboard.svg" alt="">
+							</div>
+						</div>
+					</div>
+		          
+		        </div>
+	            </div>
+	        </div>
+        </div>
+
+
+        <div id="app-sidepanel"  class="app-sidepanel"> 
+	        <div id="sidepanel-drop" class="sidepanel-drop"></div>
+	        <div class="sidepanel-inner d-flex flex-column px-2">
+		        <a href="#" id="sidepanel-close" class="sidepanel-close d-xl-none">&times;</a>
+		        <div class="app-branding mt-3">
+		            <a class="app-logo" href="index.html"><img class=" me-2" src="/images/logo.svg" alt="logo"></a>
+	
+		        </div><!--//app-branding-->  
+		        
+			    <nav id="app-nav-main"  class="app-nav app-nav-main flex-grow-1 mt-5">
+				    <ul class="app-menu list-unstyled accordion" id="menu-accordion">
+					    <li class="nav-item">
+					   
+					        <a class="nav-link " href="index.html">
+						        <span class="nav-icon">
+									<svg width="18" height="18" viewBox="0 0 18 18"  fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" d="M1.00001 8C1.00001 7.37049 1.2964 6.77771 1.80001 6.4L7.80001 1.9C8.51112 1.36667 9.4889 1.36667 10.2 1.9L16.2 6.4C16.7036 6.77771 17 7.37049 17 8V14C17 15.6569 15.6569 17 14 17H4C2.34314 17 0.999998 15.6569 1 14L1.00001 8Z" stroke="#898D8F" stroke-width=""/>
+										
+										</svg>
+								
+						         </span>
+		                         <span class="nav-link-text">Home</span>
+					        </a><!--//nav-link-->
+					    </li>
+
+						<li class="nav-item has-submenu">
+					      
+					        <a class="nav-link submenu-toggle" href="#" data-bs-toggle="collapse" data-bs-target="#submenu-1" aria-expanded="false" aria-controls="submenu-1">
+						        <span class="nav-icon">
+									<svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.19999 8.2V5C4.19999 3.93913 4.62142 2.92172 5.37156 2.17157C6.12171 1.42143 7.13912 1 8.19999 1C9.26085 1 10.2783 1.42143 11.0284 2.17157C11.7786 2.92172 12.2 3.93913 12.2 5V8.2M3.99998 17H12.4C14.0568 17 15.4 15.6569 15.4 14V11.2C15.4 9.54315 14.0568 8.2 12.4 8.2H3.99999C2.34314 8.2 0.999991 9.54314 0.999986 11.2L0.999978 14C0.999973 15.6568 2.34312 17 3.99998 17Z" stroke="#FFDB60" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										</svg>										
+						         </span>
+		                         <span class="nav-link-text">ByteLock</span>
+		                         <span class="submenu-arrow">
+		                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+	</svg>
+	                             </span>
+					        </a>
+					        <div id="submenu-1" class="collapse submenu submenu-1" data-bs-parent="#menu-accordion">
+						        <ul class="submenu-list list-unstyled">
+							        <li class="submenu-item"><a class="submenu-link active" href="/dashboard/create-lock.html">Create Lock</a></li>
+							        <li class="submenu-item"><a class="submenu-link" href="account.html">Token</a></li>
+							        <li class="submenu-item"><a class="submenu-link" href="settings.html">Liquidity</a></li>
+						        </ul>
+					        </div>
+					    </li>
+
+					    <li class="nav-item">
+					        
+					        <a class="nav-link" href="docs.html">
+						        <span class="nav-icon">
+									<svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.375 11.4609C12.375 9.49921 11.2254 7.80468 9.56249 7.01542V4.10097C9.56249 3.83554 9.46932 3.5789 9.29706 3.37675L6.61816 0.20039C6.50566 0.0667968 6.34569 0 6.18749 0C6.02929 0 5.86933 0.0667968 5.75683 0.20039L3.07793 3.37675C2.90684 3.57932 2.81281 3.83582 2.8125 4.10097V7.01542C1.14961 7.80468 0 9.49921 0 11.4609H2.75097C2.71054 11.5875 2.68945 11.7246 2.68945 11.8793C2.68945 12.2678 2.82304 12.6474 3.06562 12.948C3.26362 13.1939 3.52585 13.38 3.82324 13.4859C4.22929 14.4351 5.15214 15.0469 6.18749 15.0469C6.69901 15.0469 7.19472 14.8957 7.61835 14.6109C8.03319 14.3332 8.35487 13.9447 8.54999 13.4859C8.84723 13.3807 9.1095 13.1951 9.3076 12.9498C9.5505 12.6465 9.68314 12.2696 9.68378 11.881C9.68378 11.7334 9.66444 11.5928 9.62928 11.4627H12.375V11.4609ZM10.5873 9.44647C10.7525 9.70311 10.8861 9.97909 10.9828 10.2656H9.49217V8.34433C9.93073 8.63051 10.3039 9.00609 10.5873 9.44647ZM4.00781 7.01542V4.12734L6.18749 1.54336L8.36718 4.12734V10.2656H4.00781V7.01542ZM1.39219 10.2656C1.48887 9.97909 1.62246 9.70311 1.78769 9.44647C2.07422 9.0035 2.44687 8.62909 2.88281 8.34433V10.2656H1.39219ZM8.22831 12.3082C8.1369 12.3609 8.03143 12.382 7.92772 12.368L7.58495 12.3258L7.53573 12.6668C7.44081 13.333 6.86073 13.8357 6.18749 13.8357C5.51425 13.8357 4.93417 13.333 4.83925 12.6668L4.79003 12.324L4.44726 12.368C4.34306 12.3804 4.23762 12.3588 4.14667 12.3064C3.99374 12.2185 3.89882 12.0551 3.89882 11.8775C3.89882 11.6912 4.00253 11.5365 4.15546 11.4592H8.22128C8.37597 11.5383 8.47792 11.693 8.47792 11.8775C8.47616 12.0568 8.38124 12.2221 8.22831 12.3082ZM5.34374 5.55468C5.34374 6.02068 5.7215 6.39843 6.18749 6.39843C6.65349 6.39843 7.03124 6.02068 7.03124 5.55468C7.03124 5.08868 6.65349 4.71093 6.18749 4.71093C5.7215 4.71093 5.34374 5.08868 5.34374 5.55468Z" fill="#898D8F"/>
+										</svg>										
+						         </span>
+		                         <span class="nav-link-text">Launchpad</span>
+					        </a>
+					    </li>
+
+					    <li class="nav-item">
+					    
+					        <a class="nav-link" href="orders.html">
+						        <span class="nav-icon">
+								<svg width="15" height="16" viewBox="0 0 15 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.2154 0.000298389C6.07636 -0.000193798 5.9369 -5.31741e-05 5.79705 0.000544481C5.12391 0.00367338 4.44002 0.0213569 3.75029 0.0469506L3.94983 0.922094C4.66811 0.840883 5.45557 0.780414 6.24297 0.75018C6.66955 0.733797 7.09354 0.725149 7.50479 0.727328C8.7386 0.733762 9.85805 0.837367 10.5905 1.12115L10.9036 1.24258L10.7638 1.54791C9.74214 3.7798 9.50585 5.93301 9.66595 8.04569C9.74498 5.53842 10.7872 3.30839 12.1554 0.449559C10.2936 0.140185 8.30105 0.00722405 6.2154 0.000263118V0.000298389ZM7.20097 1.36401C6.89371 1.36425 6.58047 1.37048 6.26726 1.3825C4.80223 1.43875 3.3423 1.61066 2.3908 1.80775C3.45368 3.77927 4.31349 5.75533 4.86871 7.68172C4.93776 7.6794 5.00691 7.67996 5.07592 7.6833C5.21718 7.69022 5.35689 7.70938 5.4934 7.7392C4.92827 5.93227 4.28456 4.26576 3.48437 2.60179L3.30356 2.22583L3.71439 2.15312C4.74644 1.97038 5.81167 1.89965 6.82551 1.89933C6.89308 1.89933 6.96051 1.89958 7.02758 1.90017C7.67179 1.9058 8.29264 1.93913 8.86787 1.9893L9.25649 2.02322L9.14314 2.39647C8.48572 4.5608 8.35695 6.88515 8.72865 9.09661C8.73484 9.10234 8.7411 9.10804 8.74714 9.11384C8.8812 9.06687 9.0066 9.01899 9.12349 8.9678C8.83331 6.59848 8.96188 4.15411 10.0456 1.61309C9.44085 1.459 8.51895 1.37846 7.50595 1.3658C7.40428 1.36455 7.30265 1.36396 7.20097 1.36405V1.36401ZM12.2967 1.62364C11.2084 3.92834 10.4354 5.77523 10.3087 7.76904C11.0132 5.42054 12.3748 3.31528 13.9264 1.96272C13.3878 1.82837 12.8442 1.71526 12.2967 1.62364ZM1.92698 2.27504C1.26745 2.41103 0.623179 2.58365 0 2.82215C0.303257 3.08511 0.851483 3.57431 1.51664 4.22449C1.82278 3.90939 2.135 3.59808 2.46065 3.315C2.28818 2.96558 2.11025 2.61891 1.92698 2.27504ZM6.91997 2.53808C6.44114 2.53576 5.951 2.54947 5.45909 2.58354C5.40748 3.06455 5.123 3.51455 4.78321 3.95709C5.32571 5.2392 5.79423 6.54751 6.21604 7.93656C6.86203 8.12711 7.50114 8.35236 8.01885 8.62225C7.82654 7.12959 7.85284 5.60012 8.10252 4.1044C7.64953 3.63647 7.41356 3.11686 7.39465 2.54557C7.23645 2.54135 7.07821 2.53886 6.91997 2.53808ZM13.319 3.48677C12.4496 4.51685 11.6835 5.80698 11.1615 7.21024C12.12 5.84681 13.2986 4.78333 14.5533 4.03212C14.1445 3.84435 13.7331 3.66255 13.319 3.48677ZM2.74616 3.90721C2.23309 4.37085 1.72613 4.92733 1.19819 5.45749C2.33335 6.13217 3.30022 6.93117 4.08895 7.83616C4.13792 7.81767 4.18738 7.80104 4.23713 7.78588C3.86806 6.51689 3.36227 5.21832 2.74616 3.90721ZM10.9512 8.29301C10.3747 8.98868 9.83199 9.35596 9.08471 9.64899C9.16877 9.97313 9.04393 10.3453 8.75657 10.6299C8.58753 10.7973 8.37512 10.9881 8.06455 11.112C8.10938 11.1386 8.15508 11.1635 8.20166 11.1868C8.63633 11.4037 9.40425 11.3338 10.1177 11.0093C10.8289 10.6859 11.4642 10.1272 11.6997 9.5612C11.8177 9.24304 11.7335 9.0771 11.5268 8.83375C11.3797 8.66061 11.1649 8.48606 10.9512 8.29305V8.29301ZM4.97182 8.31361C4.59513 8.31017 4.21256 8.41887 3.8964 8.65674C3.44675 8.99505 3.10011 9.59836 3.09702 10.6232V10.6302L3.09666 10.6372C2.99401 12.7951 3.15291 13.7907 3.46774 14.3309C3.74561 14.8077 4.20778 15.0359 4.88383 15.4557C4.91603 15.3711 4.94957 15.2671 4.98104 15.1358C5.06109 14.8019 5.12732 14.3433 5.1693 13.8359C5.25329 12.8214 5.24102 11.6032 5.10057 10.7266L5.02635 10.2628L5.48395 10.3681C6.59541 10.6238 7.23121 10.654 7.60035 10.5889C7.96956 10.5237 8.09468 10.3948 8.31124 10.1803C8.5148 9.97875 8.511 9.90623 8.4679 9.79281C8.42476 9.67936 8.25172 9.4924 7.95813 9.31353C7.37092 8.95578 6.37312 8.62408 5.44046 8.37672C5.28749 8.33622 5.13006 8.31502 4.97182 8.31361ZM11.6199 10.754C11.2678 11.0969 10.8347 11.3784 10.3797 11.5854C9.64198 11.9208 8.83057 12.0743 8.1574 11.8509C7.91974 11.9393 7.78168 12.041 7.71204 12.1251C7.61649 12.2406 7.61051 12.3255 7.64289 12.4471C7.67523 12.5688 7.77173 12.7132 7.89106 12.8171C8.01034 12.921 8.15213 12.975 8.20602 12.9776C9.85112 13.0557 10.5631 12.5836 11.4501 12.036C11.7088 11.8763 11.8078 11.5528 11.783 11.2298C11.7706 11.0683 11.7236 10.9165 11.6694 10.821C11.6559 10.7966 11.6392 10.7741 11.6199 10.754ZM5.77736 11.0738C5.87323 11.9551 5.87481 12.9833 5.79993 13.8882C5.75609 14.418 5.68831 14.8999 5.59641 15.2833C5.55644 15.4502 5.51246 15.5981 5.4593 15.7284L10.6166 15.5011C10.5584 15.2849 10.499 15.0678 10.4397 14.8506C10.2416 14.9166 10.0391 14.9685 9.83365 15.0062L9.83519 15.0318L9.54284 15.05C9.3628 15.0716 9.17538 15.0835 8.98093 15.0849L6.03273 15.2681L6.12038 14.86C6.39976 13.559 6.42553 12.4135 6.2532 11.1604C6.09401 11.1346 5.93539 11.1058 5.77732 11.0738H5.77736ZM6.90137 11.2385C7.04017 12.3611 7.02347 13.4326 6.81679 14.5853L7.49404 14.5433C7.38783 14.3866 7.31485 14.2098 7.27958 14.0238C7.23402 13.7819 7.25937 13.5127 7.41761 13.29C7.4246 13.2802 7.43216 13.2707 7.43965 13.2612C7.25522 13.0908 7.10117 12.8723 7.03135 12.6099C6.95703 12.3307 7.00343 11.9887 7.2246 11.7215C7.29769 11.6333 7.38604 11.5536 7.48978 11.4819C7.39802 11.4088 7.31759 11.3313 7.24812 11.2505C7.1404 11.2513 7.02505 11.2473 6.90137 11.2385ZM11.5654 12.7075C10.7408 13.2086 9.81428 13.6875 8.176 13.6097C8.12252 13.6071 8.06937 13.5999 8.01716 13.5881C7.97381 13.6075 7.95068 13.6323 7.93342 13.6565C7.89956 13.7042 7.87956 13.7901 7.90146 13.9066C7.94534 14.1396 8.16601 14.3949 8.3715 14.4188C9.82644 14.588 10.8317 14.112 11.4421 13.5583C11.7233 13.3031 11.7257 13.1399 11.6843 12.9624C11.6636 12.8737 11.6179 12.7877 11.5654 12.7075ZM11.3305 14.4323C11.2328 14.4935 11.1325 14.5505 11.03 14.6032C11.088 14.8159 11.1461 15.0286 11.2035 15.2414L11.9039 15.1158C11.7232 14.9616 11.5818 14.801 11.4683 14.6413C11.4176 14.57 11.3729 14.5007 11.3305 14.4323Z" 
+									fill=""/>
+									</svg>
+	
+						         </span>
+		                         <span class="nav-link-text">Staking</span>
+					        </a>
+					    </li>
+
+						<li class="nav-item">
+					        <a class="nav-link" href="orders.html">
+						        <span class="nav-icon">
+									<svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+										<path d="M14 4V15C14 16.1046 13.1046 17 12 17H6C4.89543 17 4 16.1046 4 15V4M10.5 7.5H8.25C7.55964 7.5 7 8.05964 7 8.75C7 9.44036 7.55964 10 8.25 10H9.75C10.4404 10 11 10.5596 11 11.25C11 11.9404 10.4404 12.5 9.75 12.5H7.5M9 6.5V7M9 13V13.5M4 7H3C1.89543 7 1 6.10457 1 5V3C1 1.89543 1.89543 1 3 1H15C16.1046 1 17 1.89543 17 3V5C17 6.10457 16.1046 7 15 7H14" 
+										stroke="#898D8F" stroke-width="1.5" />
+										</svg>
+								
+	
+						         </span>
+		                         <span class="nav-link-text">Rewards</span>
+					        </a><!--//nav-link-->
+					    </li>
+
+						<li class="d-flex justify-content-center mx-auto mt-4 mb-5 pt-3">
+							<img src="/images/get-reward.svg" style="width: 200px;" alt="">
+						</li>
+
+					  
+
+					
+
+								    
+				    </ul>
+			    </nav>
+			
+		       
+	        </div><!--//sidepanel-inner-->
+	    </div>
+		
+    </header>
+    
+    <div class="app-wrapper mt-5">
+	    
+	    <div class="app-content pt-3 p-md-3 p-lg-5">
+		    <div class="container-xl">
+			    
+			    <p class="pt-2" style="font-size: 16px;"> <img src="/images/chart-up.svg" alt="">  Trending  <span style="color: #FFDA5D;">$BYTE</span>  #2 <span style="color: #FFDA5D;">$BYTE</span>    #3 <span style="color: #FFDA5D;">$BYTE</span>   #4 <span style="color: #FFDA5D;">$BYTE</span>  #5 <span style="color: #FFDA5D;">$BYTE</span> #6 <span style="color: #FFDA5D;">$BYTE</span>  #7 <span style="color: #FFDA5D;"> $BYTE</span>  #8 <span style="color: #FFDA5D;"> $BYTE</span>  #9 <span style="color: #FFDA5D;"> $BYTE</span> #10 <span style="color: #FFDA5D;"> $BYTE</span> #11 <span style="color: #FFDA5D;"> $BYTE</span> #12 <span style="color: #FFDA5D;">$BYTE</span>  #13 <span style="color: #FFDA5D;">$BYTE</span> #14 <span style="color: #FFDA5D;">$BYTE</span>   #15 <span style="color: #FFDA5D;">$BYTE</span>   </p>
+			    
+			    <div class="create-lock px-lg-5 px-3 pb-5 pt-3 mt-5">
+					<p class="yellow font-24">Create Your Lock</p>
+
+					<div class=" px-2">
+						<p class="yellow">Token or LP Token address*</p>
+						<input type="text" placeholder="Enter Token or LP Token address " class="input w-full">
+						<div class="d-flex mt-3">
+							<div>
+								<input type="checkbox" class="input">
+							</div>
+							<div class=" " style="position: relative; left: 5px; bottom: 2px;">
+								<p class="label ">Use another owner</p>
+							</div>
+						</div>
+					</div>
+
+					<div class=" px-2">
+						<p class="yellow">Lock Name</p>
+						<input type="text" placeholder="Enter Lock Name" class="input w-full">
+					</div>
+
+					<div class=" px-2">
+						<p class="yellow">Amount*</p>
+						<input type="text" placeholder="Amount" class="input w-full">
+
+						<div class="d-flex mt-3">
+							<div>
+								<input type="checkbox" class="input">
+							</div>
+							<div class=" " style="position: relative; left: 5px; bottom: 2px;">
+								<p class="label ">Use vesting</p>
+							</div>
+						</div>
+					</div>
+
+					<div class=" px-2">
+						<p class="yellow">Lock Until</p>
+						<input type="date" placeholder="Select Date" class="input text-white w-full">
+					</div>
+
+					<div class="">
+						<div style="background-color: #2F3133; width: 80px; height: 40px; border-radius: 10px;" class="text-center pt-1 mt-4 d-flex justify-content-center mx-auto">
+							<p style="color: #6E7375; cursor: pointer;">LOCK</p>
+						</div>
+					</div>
+
+					
+				</div>
+			    
+		    </div>
+	    </div>
+	    
+
+	    
+    </div>  					
+
+ 
+    <!-- Javascript -->          
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+
+    <!-- Charts JS -->
+    <script src="assets/plugins/chart.js/chart.min.js"></script> 
+    <script src="assets/js/index-charts.js"></script> 
+    
+    <!-- Page Specific JS -->
+    <script src="assets/js/app.js"></script> 
+
+</body>
+</html> 
+
